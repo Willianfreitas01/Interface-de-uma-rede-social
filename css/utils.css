@@ -1,0 +1,11 @@
+.space-y-12 > * + * {
+   margin-top: 12px;
+}
+
+.space-x-12 > * + * {
+   margin-right: 12px;
+}
+
+.gap-16 {
+    gap: 16px;
+}
