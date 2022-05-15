@@ -53,12 +53,12 @@ document.addEventListener('DOMContentLoaded', function (event) {
             const postSendoClicado = postClicado.dataset.postSalvo === 'true'
 
             if (postSendoClicado) {
-                postClicado.querySelector('span').innerText = "SALVAR"
+                postClicado.querySelector('span').innerText = "Curtir"
                 // postClicado.classList.remove('button--active')
                 postClicado.dataset.postSalvo = false
             }
             else {
-                postClicado.querySelector('span').innerText = "SALVO"
+                postClicado.querySelector('span').innerText = "Curtido"
                 //postClicado.classList.add('button--active')
                 postClicado.dataset.postSalvo = true
             }
